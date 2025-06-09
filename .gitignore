@@ -1,0 +1,22 @@
+# Raw input data
+fastqs_raw/
+
+# Output and result directories
+fastqc_results/
+trimmed_results/
+results/
+
+# Nextflow work directory
+work/
+
+# Log files
+*.log
+
+# Nextflow hidden folder
+.nextflow/
+
+# Optional: cache, metadata, and miscellaneous
+.cache/
+*.nf.trace
+*.html
+*.dot

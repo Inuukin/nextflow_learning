@@ -1,0 +1,4 @@
+Input line 1,
+Input line 2, lets see how it goes.
+Input line 3 cos tam cos tam.
+Input line 4, end of file.
