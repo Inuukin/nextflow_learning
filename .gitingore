@@ -1,0 +1,5 @@
+/fastqs_raw
+/fastqc_results
+/trimmed_results
+/work
+*log
