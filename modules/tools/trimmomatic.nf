@@ -7,10 +7,7 @@ process RUN_TRIMMOMATIC {
     tuple val(sample_id), path(read1), path(read2)
 
     output:
-    path "${sample_id}_1_paired.fastq"
-    path "${sample_id}_1_unpaired.fastq"
-    path "${sample_id}_2_paired.fastq"
-    path "${sample_id}_2_unpaired.fastq"
+    tuple val(sample_id), path("${sample_id}_1_paired.fastq"), path("${sample_id}_1_unpaired.fastq"), path("${sample_id}_2_paired.fastq"), path("${sample_id}_2_unpaired.fastq")
 
     script:
     """
