@@ -1,5 +1,7 @@
-/fastqs_raw
-/fastqc_results
-/trimmed_results
-/work
+fastqs_raw/
+fastqc_results/
+trimmed_results/
+results/
+work/
 *log
+.nextflow/
